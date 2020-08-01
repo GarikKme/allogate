@@ -1,0 +1,42 @@
+.rb-welcome-page-content .rb-welcome-page-title {
+  font-size: 30px; }
+  .rb-welcome-page-content .rb-welcome-page-title small {
+    margin-left: 5px;
+    color: #72777c;
+    font-size: 16px; }
+
+.rb-welcome-page-content .about-text {
+  color: #555;
+  font-size: 16px;
+  width: 60%; }
+
+.rb-welcome-page-content img {
+  display: block;
+  margin-top: 20px; }
+
+.rb-welcome-page-content h4 {
+  margin-bottom: 0; }
+
+.rb-welcome-page-content ul {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center; }

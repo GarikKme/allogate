@@ -1,0 +1,15 @@
+.count_wrapper, .milestone_title {
+    text-align: center!important;
+}
+
+.milestone_wrapper.style_advanced {
+    padding: 30px!important;
+}
+
+.rb_textmodule_divider {
+    display: none!important;
+}
+
+.rb_case_study {
+    text-align: left!important;
+}

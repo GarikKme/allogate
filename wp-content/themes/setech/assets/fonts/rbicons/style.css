@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "rbicon";
+  src: url("./fonts/setech.eot");
+  src: url("./fonts/setech.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/setech.woff2") format("woff2"),
+       url("./fonts/setech.woff") format("woff"),
+       url("./fonts/setech.ttf") format("truetype"),
+       url("./fonts/setech.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "rbicon";
+    src: url("./setech.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="rbicon-"]:before, [class*=" rbicon-"]:before,
+[class^="rbicon-"]:after, [class*=" rbicon-"]:after {   
+  font-family: rbicon;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.rbicon-paint-roller:before { content: "\f100"; }
+.rbicon-target:before { content: "\f101"; }
+.rbicon-3d-modeling:before { content: "\f102"; }
+.rbicon-design:before { content: "\f103"; }
+.rbicon-pyramid:before { content: "\f104"; }
+.rbicon-conversation:before { content: "\f105"; }
+.rbicon-settings:before { content: "\f106"; }
+.rbicon-case:before { content: "\f107"; }
+.rbicon-satchel:before { content: "\f108"; }
+.rbicon-check:before { content: "\f109"; }
+.rbicon-right-arrow:before { content: "\f10a"; }
+.rbicon-phone-receiver:before { content: "\f10b"; }
+.rbicon-print:before { content: "\f10c"; }
+.rbicon-picture:before { content: "\f10d"; }
+.rbicon-pen:before { content: "\f10e"; }
+.rbicon-mask:before { content: "\f10f"; }
+.rbicon-portfolio:before { content: "\f110"; }
+.rbicon-inspiration:before { content: "\f111"; }
+.rbicon-responsive:before { content: "\f112"; }
+.rbicon-layers:before { content: "\f113"; }
+.rbicon-settings-1:before { content: "\f114"; }
+.rbicon-photo-camera:before { content: "\f115"; }
+.rbicon-prototype:before { content: "\f116"; }
+.rbicon-typography:before { content: "\f117"; }
+.rbicon-info:before { content: "\f118"; }
+.rbicon-send:before { content: "\f119"; }
+.rbicon-user:before { content: "\f11a"; }
+.rbicon-team:before { content: "\f11b"; }
+.rbicon-news:before { content: "\f11c"; }
+.rbicon-whatsapp:before { content: "\f11d"; }
+.rbicon-envelope:before { content: "\f11e"; }
+.rbicon-pin:before { content: "\f11f"; }
+.rbicon-musica-searcher:before { content: "\f120"; }
+.rbicon-arrow-pointing-to-right:before { content: "\f121"; }
+.rbicon-royal:before { content: "\f122"; }
+.rbicon-preference:before { content: "\f123"; }
+.rbicon-chart:before { content: "\f124"; }
+.rbicon-folder:before { content: "\f125"; }
+.rbicon-share:before { content: "\f126"; }
+.rbicon-24-hour-service:before { content: "\f127"; }
+.rbicon-time-left:before { content: "\f128"; }
+.rbicon-clockwise-rotation:before { content: "\f129"; }
+.rbicon-favorite-heart-button:before { content: "\f12a"; }
+.rbicon-notifications-button:before { content: "\f12b"; }
+.rbicon-painter-palette:before { content: "\f12c"; }
+.rbicon-good-mood-emoticon:before { content: "\f12d"; }
+.rbicon-eye:before { content: "\f12e"; }
+.rbicon-more:before { content: "\f12f"; }
+.rbicon-clip:before { content: "\f130"; }
+.rbicon-keypad:before { content: "\f131"; }
+.rbicon-fire:before { content: "\f132"; }
+.rbicon-mountains:before { content: "\f133"; }
+.rbicon-agenda:before { content: "\f134"; }
+.rbicon-book:before { content: "\f135"; }
+.rbicon-help:before { content: "\f136"; }
+.rbicon-price:before { content: "\f137"; }
+.rbicon-coin:before { content: "\f138"; }
+.rbicon-wallet:before { content: "\f139"; }
+.rbicon-speech-bubble:before { content: "\f13a"; }
+.rbicon-box:before { content: "\f13b"; }
+.rbicon-online-shopping:before { content: "\f13c"; }
+.rbicon-favourite:before { content: "\f13d"; }
+.rbicon-cloud:before { content: "\f13e"; }
+.rbicon-progress:before { content: "\f13f"; }
+.rbicon-smile:before { content: "\f140"; }
+.rbicon-performance:before { content: "\f141"; }
+.rbicon-motivational-speech:before { content: "\f142"; }
+.rbicon-statistics:before { content: "\f143"; }
+.rbicon-population:before { content: "\f144"; }
+.rbicon-support:before { content: "\f145"; }
+.rbicon-target-1:before { content: "\f146"; }
+.rbicon-vision:before { content: "\f147"; }
+.rbicon-cloud-network:before { content: "\f148"; }
+.rbicon-social-media:before { content: "\f149"; }
+.rbicon-server:before { content: "\f14a"; }
+.rbicon-bank:before { content: "\f14b"; }
+.rbicon-graph:before { content: "\f14c"; }
+.rbicon-target-2:before { content: "\f14d"; }
+.rbicon-mail:before { content: "\f14e"; }
+.rbicon-bar-chart:before { content: "\f14f"; }
+.rbicon-pin-1:before { content: "\f150"; }
+.rbicon-cite:before { content: "\f151"; }
+.rbicon-info-1:before { content: "\f152"; }
+.rbicon-sort-down:before { content: "\f153"; }
+.rbicon-folder-1:before { content: "\f154"; }
+.rbicon-plus:before { content: "\f155"; }
+.rbicon-bullhorn:before { content: "\f156"; }
+.rbicon-plus-1:before { content: "\f157"; }
+.rbicon-star:before { content: "\f158"; }
+.rbicon-photo-camera-1:before { content: "\f159"; }
+.rbicon-tab:before { content: "\f15a"; }
+.rbicon-multimedia:before { content: "\f15b"; }
+.rbicon-system:before { content: "\f15c"; }
+.rbicon-calendar:before { content: "\f15d"; }
+.rbicon-chat:before { content: "\f15e"; }
+.rbicon-goal:before { content: "\f15f"; }
+.rbicon-calculator:before { content: "\f160"; }
+.rbicon-global:before { content: "\f161"; }
+.rbicon-board:before { content: "\f162"; }
+.rbicon-plus-2:before { content: "\f163"; }
+.rbicon-letter-b:before { content: "\f164"; }
+.rbicon-link:before { content: "\f165"; }
+.rbicon-link-1:before { content: "\f166"; }
+.rbicon-menu:before { content: "\f167"; }
+.rbicon-phone:before { content: "\f168"; }
+.rbicon-question:before { content: "\f169"; }
+.rbicon-team-1:before { content: "\f16a"; }
+.rbicon-dollar:before { content: "\f16b"; }
+.rbicon-talk:before { content: "\f16c"; }
+.rbicon-chart-1:before { content: "\f16d"; }
+.rbicon-diamond:before { content: "\f16e"; }
+.rbicon-project:before { content: "\f16f"; }
+.rbicon-focus:before { content: "\f170"; }
+.rbicon-smart:before { content: "\f171"; }
+.rbicon-chart-2:before { content: "\f172"; }
+.rbicon-medal:before { content: "\f173"; }
+.rbicon-calendar-1:before { content: "\f174"; }
+.rbicon-mail-1:before { content: "\f175"; }
+.rbicon-vector:before { content: "\f176"; }
+.rbicon-project-1:before { content: "\f177"; }
+.rbicon-timer:before { content: "\f178"; }
+.rbicon-rocket:before { content: "\f179"; }
+.rbicon-link-2:before { content: "\f17a"; }
+.rbicon-clock:before { content: "\f17b"; }
+.rbicon-play:before { content: "\f17c"; }
+.rbicon-note:before { content: "\f17d"; }
+.rbicon-question-1:before { content: "\f17e"; }
+.rbicon-lightbulb:before { content: "\f17f"; }
+.rbicon-clock-1:before { content: "\f180"; }
+.rbicon-whiteboard:before { content: "\f181"; }
+.rbicon-desktop:before { content: "\f182"; }
+.rbicon-print-1:before { content: "\f183"; }
+.rbicon-rss-symbol:before { content: "\f184"; }
+.rbicon-monitor:before { content: "\f185"; }
+.rbicon-shopping-cart:before { content: "\f186"; }
+.rbicon-goal-1:before { content: "\f187"; }
+.rbicon-shout:before { content: "\f188"; }
+.rbicon-globe-grid:before { content: "\f189"; }
+.rbicon-line-chart:before { content: "\f18a"; }
+.rbicon-microphone:before { content: "\f18b"; }
+.rbicon-tv:before { content: "\f18c"; }
+.rbicon-marketing-strategy:before { content: "\f18d"; }
+.rbicon-piggy-bank:before { content: "\f18e"; }
+.rbicon-danger:before { content: "\f191"; }
+.rbicon-info:before { content: "\f192"; }
+.rbicon-multiply:before { content: "\f193"; }
+.rbicon-no-waiting:before { content: "\f194"; }
+.rbicon-instagram:before { content:"\f195"; }
+.rbicon-youtube:before { content:"\f196"; }
+.rbicon-facebook:before { content:"\f197"; }
+.rbicon-twitter:before { content:"\f198"; }
+.rbicon-linked-in:before { content:"\f199"; }
+.rbicon-pinterest:before { content:"\f19a"; }
+.rbicon-blogger:before { content:"\f19b"; }
+.rbicon-soundcloud:before { content:"\f19c"; }
+.rbicon-spotify:before { content:"\f19d"; }
+.rbicon-twitter:before { content:"\f19e"; }
+.rbicon-behance:before { content:"\f19f"; }
+.rbicon-dribble:before { content:"\f200"; }
+.rbicon-reddit:before { content:"\f201"; }
+.rbicon-vimeo:before { content:"\f202"; }
+.rbicon-tumblr:before { content:"\f203"; }
+.rbicon-yelp:before { content:"\f204"; }
+.rbicon-500px:before { content:"\f205"; }
+.rbicon-500px-2:before { content:"\f206"; }
+.rbicon-digg:before { content:"\f207"; }
+.rbicon-deviantart:before { content:"\f208"; }
+.rbicon-delicious:before { content:"\f209"; }
+.rbicon-hipstamatic:before { content:"\f20a"; }
+.rbicon-path:before { content:"\f20b"; }
+.rbicon-telly:before { content:"\f20c"; }
+.rbicon-youtube:before { content:"\f20d"; }
+.rbicon-vk:before { content:"\f20e"; }
+.rbicon-odnoklassniki:before { content:"\f20f"; }
+.rbicon-arrow-down:before { content: "\f210"; }
+.rbicon-arrow-left:before { content: "\f211"; }
+.rbicon-arrow-right:before { content: "\f212"; }
+.rbicon-arrow-up:before { content: "\f213"; }
+.rbicon-refresh:before { content: "\f214"; }

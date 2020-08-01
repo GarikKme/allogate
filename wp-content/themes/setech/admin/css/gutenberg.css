@@ -1,0 +1,18 @@
+.post-type-megamenu_item .editor-styles-wrapper ul {
+  margin-left: 0;
+  padding-left: 0; }
+  .post-type-megamenu_item .editor-styles-wrapper ul li {
+    list-style-type: none !important; }
+
+.post-type-post .wp-block {
+  max-width: 770px !important; }
+
+.wp-block {
+  max-width: 1170px !important;
+  max-width: none; }
+  .wp-block[data-align=full] {
+    max-width: 100% !important; }
+
+.edit-post-visual-editor .editor-block-list__block {
+  margin-left: auto !important;
+  margin-right: auto !important; }

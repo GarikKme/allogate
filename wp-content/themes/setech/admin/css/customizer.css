@@ -1,0 +1,259 @@
+#customize-theme-controls .control-panel-themes {
+  display: none !important; }
+
+.wp-full-overlay-main {
+  background-color: #fff; }
+
+/* -----> Customizer Defaults <----- */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; }
+
+span.customize-control-description {
+  margin-top: 5px;
+  font-size: 12px; }
+
+hr {
+  margin: 30px 0 10px; }
+  hr.top {
+    margin: 15px 0 20px; }
+
+.ajax_message .error {
+  color: red; }
+
+.ajax_message .success {
+  color: green; }
+
+.control-wrapper {
+  margin: 0 -4px;
+  padding: 2px 4px 4px;
+  opacity: 1;
+  animation: on_show 1s linear;
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+  .control-wrapper.hidden {
+    opacity: 0; }
+
+.wp-picker-container .wp-color-result.button {
+  margin: 0; }
+
+h2, h3 {
+  margin: .5em 0; }
+
+@keyframes on_show {
+  0% {
+    background-color: white; }
+  100% {
+    background-color: rgba(255, 255, 255, 0); } }
+
+.control-wrapper.link {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center; }
+  .control-wrapper.link i {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    font-family: 'Dashicons';
+    font-style: normal; }
+  .control-wrapper.link a {
+    color: #656a6f;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease; }
+  .control-wrapper.link:hover i, .control-wrapper.link:hover a {
+    color: #0073aa; }
+
+/* -----> Multiple Inputs <----- */
+.multiple_inputs_wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: normal;
+  -moz-justify-content: normal;
+  -ms-justify-content: normal;
+  justify-content: normal;
+  -webkit-align-items: normal;
+  -moz-align-items: normal;
+  -ms-align-items: normal;
+  align-items: normal;
+  margin: 0 -6px; }
+  .multiple_inputs_wrapper input {
+    padding: 8px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 6px !important; }
+
+/* -----> Alpha color picker <----- */
+.customize-control-alpha-color {
+  max-width: 50%;
+  width: 50%;
+  float: left;
+  clear: none; }
+  .customize-control-alpha-color .wp-picker-container.wp-picker-active {
+    padding-bottom: 330px; }
+    .customize-control-alpha-color .wp-picker-container.wp-picker-active .wp-picker-holder {
+      padding: 40px 10px 10px; }
+  .customize-control-alpha-color .wp-picker-container .wp-picker-input-wrap {
+    position: absolute;
+    padding-top: 10px;
+    left: 22px;
+    margin-top: 36px;
+    z-index: 1; }
+  .customize-control-alpha-color .wp-picker-container .wp-picker-holder {
+    position: absolute;
+    left: 12px;
+    margin-top: 6px;
+    background-color: #fff;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15); }
+
+.customize-control:not(.customize-control-alpha-color) {
+  float: none;
+  clear: both; }
+
+/* -----> Attachment Media <----- */
+.attachment-media-view {
+  position: relative; }
+  .attachment-media-view .thumbnail-image {
+    padding: 10px 40px 10px 10px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 1; }
+  .attachment-media-view .actions .remove-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    font-size: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #F44336;
+    color: #fff;
+    box-shadow: none;
+    border: 0;
+    z-index: 1;
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease; }
+    .attachment-media-view .actions .remove-button:hover {
+      background-color: #D32F2F; }
+    .attachment-media-view .actions .remove-button:before {
+      content: '+';
+      font-size: 26px;
+      line-height: 0;
+      position: absolute;
+      right: 4px;
+      top: 14px;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg); }
+  .attachment-media-view .actions .upload-button {
+    background-color: transparent;
+    box-shadow: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+    border: 0; }
+    .attachment-media-view .actions .upload-button.control-focus {
+      background-image: url("../img/transparent.gif"); }
+
+/* -----> Repeater Inputs <----- */
+.repeater-items-wrapper .repeater-item {
+  position: relative; }
+  .repeater-items-wrapper .repeater-item:not(:last-child) {
+    margin-bottom: 10px; }
+  .repeater-items-wrapper .repeater-item input {
+    padding-right: 40px; }
+  .repeater-items-wrapper .repeater-item .remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    font-size: 0;
+    height: 100%;
+    width: 26px;
+    background-color: #F44336;
+    color: #fff;
+    box-shadow: none;
+    border: 0;
+    z-index: 1;
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    cursor: pointer; }
+    .repeater-items-wrapper .repeater-item .remove:hover {
+      background-color: #D32F2F; }
+    .repeater-items-wrapper .repeater-item .remove:before {
+      content: '+';
+      font-size: 25px;
+      line-height: 0;
+      position: absolute;
+      right: 2px;
+      top: 11px;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg); }
+
+.repeater-button {
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  line-height: 30px;
+  padding: 0 14px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease; }
+  .repeater-button.add {
+    margin-right: 5px; }
+    .repeater-button.add:hover {
+      background-color: #F3F3F3; }
+  .repeater-button.save {
+    color: #fff;
+    background-color: #0085BA; }
+    .repeater-button.save:hover {
+      background-color: #008ec2; }
+
+/* -----> Radio input <----- */
+.customize-control-radio {
+  padding: 0; }

@@ -1,0 +1,4 @@
+i.svg { display: inline-block }
+i.svg.out svg *, i.svg.out svg {
+	animation-direction:reverse;
+}

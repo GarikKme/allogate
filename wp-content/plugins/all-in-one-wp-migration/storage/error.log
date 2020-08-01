@@ -1,0 +1,18 @@
+Aug 01 2020 15:45:06
+{"Number":8,"Message":"unserialize(): Error at offset 1850 of 1917 bytes","File":"C:\\xampp\\htdocs\\allo\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":64}
+
+Aug 01 2020 15:45:06
+{"Number":8,"Message":"unserialize(): Error at offset 562 of 652 bytes","File":"C:\\xampp\\htdocs\\allo\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":64}
+
+Aug 01 2020 15:45:06
+{"Number":8,"Message":"unserialize(): Error at offset 2252 of 2311 bytes","File":"C:\\xampp\\htdocs\\allo\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":64}
+
+Aug 01 2020 15:45:06
+{"Number":8,"Message":"unserialize(): Error at offset 562 of 655 bytes","File":"C:\\xampp\\htdocs\\allo\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\database\\class-ai1wm-database-utility.php","Line":64}
+
+Aug 01 2020 15:45:12
+{"type":8192,"message":"Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`","file":"C:\\xampp\\htdocs\\allo\\wp-content\\plugins\\revslider\\includes\\output.class.php","line":1912}
+
+Aug 01 2020 15:45:14
+{"type":8192,"message":"Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`","file":"C:\\xampp\\htdocs\\allo\\wp-content\\plugins\\revslider\\includes\\output.class.php","line":1912}
+

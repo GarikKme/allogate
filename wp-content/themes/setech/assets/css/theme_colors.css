@@ -1,0 +1,187 @@
+/*========================================================
+====================== PRIMARY COLOR =====================
+========================================================*/
+ul li:before,
+blockquote:before,
+body.wpb-js-composer div[data-vc-action="collapse"] .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-title-text,
+body.wpb-js-composer div[data-vc-action="collapse"] .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-controls-icon,
+.rb-widget .recentcomments span:before,
+.comment-body .comment-buttons a,
+.single-content-title .cancel-reply a,
+.required,
+.post-date a:before,
+.post-meta-wrapper a:before,
+.post-meta-wrapper .social-share a,
+.blog .blog-readmore-wrap .blog-readmore:after,
+.search .blog-readmore-wrap .blog-readmore:after,
+.rb_our_team_module .rb_team_member .information_wrapper .meta,
+.rb_our_team_module .rb_team_member .information_wrapper .phone,
+.rb_our_team_module .rb_team_member .information_wrapper .email,
+.rb_presentation_module .presentation_triggers .presentation_trigger.active,
+.rb_footer_template a,
+.site-footer a,
+.sub-menu-trigger:before,
+.site-header-mobile .menu-box .current-menu-item > a,
+.site-header-mobile .menu-box .current-item-parent > a,
+.rb_carousel:hover .slick-arrow,
+.comment-body .comment-meta .comment-admin,
+.post-format .post-date:before,
+.post:not(.format-chat) .post-content-inner > p:first-child::first-letter,
+.rb-widget .widget-title:before,
+.button-up:before
+{ color: @@primary; }
+
+.rb-widget caption:before, 
+.rb-widget .calendar_wrap table tbody td a,
+.upsells.products > h2:before, .upsells.products > h2:after,
+.related.products > h2:before, .related.products > h2:after,
+.rb_carousel .slick-dots li button, 
+.rb_custom_carousel .slick-dots li button,
+.menu-main-container.header_menu > ul > .menu-item > a:before,
+.blog.layout_small .post-author:before,
+.portfolio-single-content .social-share:before,
+.rb_portfolio_module .rb_portfolio_items .rb_portfolio_item .text_info .h5:after,
+.header_icons .mini-cart .woo_mini-count > span,
+.rb-widget .price_slider_wrapper .price_slider .ui-slider-handle,
+.rb-widget .price_slider_wrapper .price_slider .ui-slider-range,
+ul .menu-item-object-rb-megamenu .sub-menu .rb_megamenu_item .widgettitle:before,
+.rb_latest_posts h5:before,
+.rb-widget.rb-about .name:before,
+.rb-widget .search-form .label .search-submit,
+.rb-widget .woocommerce-product-search button,
+.post.sticky .post-inner:before,
+.format-link .media-alternate:before,
+.post-format.format_quote,
+.post-format.format_link:before,
+.rb_custom_carousel .slick-arrow:hover,
+.paging-navigation:not(.load_more) .pagination .current,
+.woocommerce-pagination .current,
+.post-navigation .nav-links li.archive-dots a span,
+.post-navigation .nav-links li > a:before,
+.rb_portfolio_module .portfolio-filter .portfolio-filter-trigger.active
+{ background-color: @@primary; }
+
+body:not(.single):not([data-default="true"]) .format-quote .post-inner
+{ background-color: @@primary !important; }
+
+blockquote,
+.rb_icon_preloader:after,
+.rb-widget ul li.chosen a,
+.rb-widget ul li.chosen:after,
+.rb-widget .search-form .label input,
+.woocommerce.single .content-area .site-main > .type-product .woocommerce-tabs .tabs li.active a
+{ border-color: @@primary; }
+
+.rb_icon_preloader:after
+{ border-color: @@primary transparent @@primary transparent; }
+
+/*========================================================
+===================== SECONDARY COLOR ====================
+========================================================*/
+.rb-widget .calendar_wrap,
+body.wpb-js-composer .vc_tta.vc_general.vc_tta-o-all-clickable .vc_tta-panel,
+body.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs .vc_tta-panel .vc_tta-panel-body,
+body.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs .vc_tta-tabs-list li.vc_active,
+.wpforms-container .wpforms-field[class*='fa-']:before,
+.main_member_info:before,
+.rb-widget.widget_search,
+.rb-widget.widget_product_search,
+.rb-widget .tagcloud a,
+.woocommerce-pagination .page-numbers a, 
+.paging-navigation:not(.load_more) .pagination > *,
+.post:not(.format-chat) .post-content-inner > p:first-child::first-letter,
+.post-meta .post-tags > *:not(span),
+.post-meta .post-cats > *:not(span),
+.author-information,
+.post-format.format_link,
+.rb_portfolio_module .portfolio-filter .portfolio-filter-trigger,
+.post.sticky .post-inner
+{ background-color: @@secondary; }
+
+.rb-widget.wpforms-widget input,
+body:not(.single):not([data-default="true"]) .format-link .post-inner
+{ background-color: @@secondary !important; }
+
+@media screen and (max-width: 767px){
+	body.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs .vc_tta-panel .vc_tta-panel-heading
+	{ background-color: @@secondary; }
+}
+
+body.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs .vc_tta-tabs-list li.vc_active
+{ border-color: @@secondary; }
+
+/*========================================================
+====================== BUTTONS COLOR =====================
+========================================================*/ 
+.rb_button,
+a.showcoupon,
+.next.page-numbers,
+.prev.page-numbers,
+body div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+body div.wpforms-container-full .wpforms-form button[type=submit],
+.post-password-form input[type='submit'],
+.comment-form .submit,
+.added_to_cart,
+.woo_mini_cart .button,
+.woocommerce .button,
+.rb_woo_modal_content .button
+{ 
+	background-color: @@primary;
+	border-color: @@primary;
+}
+
+/*========================================================
+===================== BACKGROUND COLOR ====================
+========================================================*/
+.toggle-content .hidden,
+.site-content,
+.rb_rev_slider,
+.before_footer_shortcode
+{ background-color: @@background; }
+
+/*========================================================
+==================== ONLY DESKTOP COLORS =================
+========================================================*/
+@media 
+	screen and (min-width: 1367px), /*Disable this styles for iPad Pro 1024-1366*/
+	screen and (min-width: 1200px) and (any-hover: hover), /*Check, is device a desktop (Not working on IE & FireFox)*/
+	screen and (min-width: 1200px) and (min--moz-device-pixel-ratio:0), /*Check, is device a desktop with firefox*/
+	screen and (min-width: 1200px) and (-ms-high-contrast: none), /*Check, is device a desktop with IE 10 or above*/
+	screen and (min-width: 1200px) and (-ms-high-contrast: active) /*Check, is device a desktop with IE 10 or below*/
+{
+
+/*==================== PRIMARY COLOR ===================*/
+.blog .post-inner .post-categories a:hover,
+.rb_footer_template a:hover,
+.site-footer a:hover,
+.rb_presentation_module .presentation_triggers .presentation_trigger:hover,
+.post .rb_carousel_wrapper .rb_carousel .slick-arrow:not(.slick-disabled):hover,
+.portfolio-single-content .portfolio-content-wrapper .aside-part a:hover
+{ color: @@primary; }
+
+
+.rb-widget.widget_archive ul li:hover:before,
+.rb-widget.widget_categories ul li:hover:before,
+.rb-widget.widget_meta ul li:hover:before,
+.rb-widget.widget_pages ul li:hover:before,
+.rb-widget.widget_nav_menu ul li:hover:before,
+.rb-widget .tagcloud a:hover,
+.paging-navigation:not(.load_more) .pagination *:hover,
+.woocommerce-pagination .page-numbers a:hover,
+.post-meta .post-cats > *:not(span):hover,
+.post-meta .post-tags > *:not(span):hover
+{ background-color: @@primary; }
+
+/*=================== BACKGROUND COLOR =================*/
+
+}
+
+/*========================================================
+==================== ONLY TABLETS COLORS =================
+========================================================*/
+@media 
+	screen and (max-width: 1199px), /*Check, is device a tablet*/
+	screen and (max-width: 1366px) and (any-hover: none) /*Enable this styles for iPad Pro 1024-1366*/
+{
+
+}
